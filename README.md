@@ -1,9 +1,9 @@
-# Anotações - NestJS no AWS ECS e Fargate com AWS CDK
+# Anotações - Backend com NestJS na infraestrutura AWS, usando o AWS ECS e Fargate com AWS CDK
 Tópicos que o curso aborda:
 - AWS Cloud Formation
 - AWS CDK - Cloud Development Kit
 - AWS ECR - Elastic Container Registry
-- VPC - 
+- VPC
 
 ## AWS Cloud Formation
 
