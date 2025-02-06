@@ -1,4 +1,8 @@
-# Anotações - Backend com NestJS na infraestrutura AWS, usando o AWS ECS e Fargate com AWS CDK
+# Anotações
+## Backend de E-commerce com NestJS na infraestrutura AWS, usando o AWS ECS e Fargate com AWS CDK
+### Proposta de backend do curso 
+![System Design ](./system-design.png)
+
 Tópicos que o curso aborda:
 - AWS Cloud Formation
 - AWS CDK - Cloud Development Kit
