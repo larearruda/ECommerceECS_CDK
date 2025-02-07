@@ -8,6 +8,9 @@ Tópicos que o curso aborda:
 - AWS CDK - Cloud Development Kit
 - AWS ECR - Elastic Container Registry
 - VPC
+    - Security groups
+    - Internet Gateway
+    - NAT Gateway
 
 ## AWS Cloud Formation
 
