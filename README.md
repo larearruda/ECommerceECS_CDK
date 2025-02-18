@@ -12,6 +12,13 @@ Tópicos que o curso aborda:
     - Internet Gateway
     - NAT Gateway
 
+## Configuração do CLI
+```shell
+npm install -g aws-cdk
+# ou
+sudo npm install -g aws-cdk
+```
+
 ## AWS Cloud Formation
 
 AWS CloudFormation é uma ferramenta da AWS que permite modelar e provisionar recursos da AWS usando arquivos de configuração em formato JSON ou YAML. Ele é usado para definir infraestruturas como código, ou seja, você escreve uma descrição declarativa da infraestrutura que deseja criar, e o CloudFormation cuida da criação e gerenciamento dessa infraestrutura.
@@ -33,6 +40,13 @@ cdk list
 cdk deploy --all --profile default
 # ou 
 cdk deploy <NOME DA STACK> --profile default
+cdk deploy Ecr  --profile default
+cdk deploy Vpc --require-approval never --profile default
+```
+
+### Destruir recursos
+```shell 
+cdk destroy Vpc --require-approval never --profile default
 ```
 
 ## Preparando a estrutura
